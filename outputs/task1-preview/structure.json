@@ -1,0 +1,120 @@
+{
+  "topic": "task1",
+  "summary": "# Import necessary libraries import re import random # Define a dictionary to store user input and corresponding responses responses = { \"hello\": [\"Hello!\", \"Hi there!\", \"Hey!\"], \"how are you\": [\"I'm good, thank you!\", \"I'm doing well, thanks for asking!\"], \"bye\": [\"Goodbye!\", \"See you later!\", \"Bye!\"] } # Define a function to process user input and generate a response def chatbot(input_text): input_text = input_text.lower() # Convert input to lowercase response = \"I'm sorry, I don't understand.\" # Default response # Check if input matches any key in the responses dictionary for key in responses: if re.search(key, input_text): response = random.choice(responses[key]) break return response # Main function to interact with the user def main(): print(\"Welcome to the chatbot!\") while True: user_input",
+  "scenes": [
+    {
+      "title": "Section 1",
+      "bullets": [
+        "# Import necessary libraries import re import random # Define a dictionary to store user input and corresponding responses responses = { \"hello\": [\"Hello!\", \"Hi there!\", \"Hey!\"], \"how are you\": [\"I'm good, thank you!\", \"I'm doing well, thanks for asking!\"], \"bye\": [\"Goodbye!\", \"See you later!\", \"Bye!\"] } # Define a function to process user input and generate a response def chatbot(input_text): input_text = input_text.lower() # Convert input to lowercase response = \"I'm sorry, I don't understand."
+      ],
+      "narration": "# Import necessary libraries import re import random # Define a dictionary to store user input and corresponding responses responses = { \"hello\": [\"Hello!\", \"Hi there!\", \"Hey!\"], \"how are you\": [\"I'm good, thank you!\", \"I'm doing well, thanks for asking!\"], \"bye\": [\"Goodbye!\", \"See you later!\", \"Bye!\"] } # Define a function to process user input and generate a response def chatbot(input_text): input_text = input_text.lower() # Convert input to lowercase response = \"I'm sorry, I don't understand.",
+      "visuals": [
+        {
+          "kind": "graph",
+          "flowchart": null,
+          "graph": {
+            "title": "Top Terms 1",
+            "type": "bar",
+            "x_label": "term",
+            "y_label": "count",
+            "series": [
+              {
+                "name": "frequency",
+                "x": [
+                  "input",
+                  "import",
+                  "text",
+                  "define",
+                  "user",
+                  "responses"
+                ],
+                "y": [
+                  6,
+                  3,
+                  3,
+                  2,
+                  2,
+                  2
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Section 2",
+      "bullets": [
+        "\" # Default response # Check if input matches any key in the responses dictionary for key in responses: if re.search(key, input_text): response = random.choice(responses[key]) break return response # Main function to interact with the user def main(): print(\"Welcome to the chatbot!\") while True: user_input = input(\"You: \") if user_input.lower() == \"exit\": print(\"Chatbot: Goodbye!\") break else: bot_response = chatbot(user_input) print(\"Chatbot:\", bot_response) # Call the main function to start th"
+      ],
+      "narration": "\" # Default response # Check if input matches any key in the responses dictionary for key in responses: if re.search(key, input_text): response = random.choice(responses[key]) break return response # Main function to interact with the user def main(): print(\"Welcome to the chatbot!\") while True: user_input = input(\"You: \") if user_input.lower() == \"exit\": print(\"Chatbot: Goodbye!\") break else: bot_response = chatbot(user_input) print(\"Chatbot:\", bot_response) # Call the main function to start th",
+      "visuals": [
+        {
+          "kind": "graph",
+          "flowchart": null,
+          "graph": {
+            "title": "Top Terms 2",
+            "type": "bar",
+            "x_label": "term",
+            "y_label": "count",
+            "series": [
+              {
+                "name": "frequency",
+                "x": [
+                  "input",
+                  "response",
+                  "user",
+                  "chatbot",
+                  "responses",
+                  "main"
+                ],
+                "y": [
+                  6,
+                  5,
+                  4,
+                  4,
+                  3,
+                  3
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Section 3",
+      "bullets": [
+        "e chatbot if _name_ == \"_main_\": main()"
+      ],
+      "narration": "e chatbot if _name_ == \"_main_\": main()",
+      "visuals": [
+        {
+          "kind": "graph",
+          "flowchart": null,
+          "graph": {
+            "title": "Top Terms 3",
+            "type": "bar",
+            "x_label": "term",
+            "y_label": "count",
+            "series": [
+              {
+                "name": "frequency",
+                "x": [
+                  "main",
+                  "chatbot",
+                  "name"
+                ],
+                "y": [
+                  2,
+                  1,
+                  1
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

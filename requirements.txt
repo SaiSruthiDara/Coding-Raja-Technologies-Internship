@@ -12,7 +12,8 @@ matplotlib>=3.9.2
 seaborn>=0.13.2
 graphviz>=0.20.3
 boto3>=1.35.20
--elevenlabs
+# Optional: install the ElevenLabs SDK if you plan to use it
+# elevenlabs>=1.7.0
 # If elevenlabs pip name changes, install manually
 # Optional but helpful
 tenacity>=8.5.0
