@@ -1,0 +1,66 @@
+{
+  "topic": "Bubble Sort",
+  "sections": [
+    {
+      "title": "Introduction to Bubble Sort",
+      "bullets": [
+        "Overview of Bubble Sort and its importance",
+        "Key definitions and core idea",
+        "Real-world context"
+      ],
+      "flowchart": {
+        "title": "High-level flow",
+        "steps": [
+          "Start",
+          "Bubble Sort",
+          "Key Step",
+          "Result",
+          "End"
+        ]
+      },
+      "charts": null
+    },
+    {
+      "title": "Process and Components",
+      "bullets": [
+        "Break down the process into stages",
+        "Introduce main components",
+        "Explain interactions"
+      ],
+      "flowchart": null,
+      "charts": [
+        {
+          "chart_type": "bar",
+          "title": "Example Comparison",
+          "x_labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "series": [
+            {
+              "name": "Metric",
+              "values": [
+                3.0,
+                5.0,
+                2.0,
+                4.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Applications and Summary",
+      "bullets": [
+        "Common applications",
+        "Benefits and trade-offs",
+        "Summary and next steps"
+      ],
+      "flowchart": null,
+      "charts": null
+    }
+  ]
+}
